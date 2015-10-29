@@ -8,7 +8,7 @@ title: jQuery.cookieでcookieを削除する際の注意
    $.cookie(name, null);
    $.cookie(name, {expires: -1, path: '/'});←これはだめ
    $.cookie(name,"",{expires:-1});
-   $.cookie(name,"",{path:"/",expires:-1});←パスをドメイン全部にしている場合や、上ではうまく消えな い場合
+   $.cookie(name,"",{path:"/",expires:-1});←パスをドメイン全部にしている場合や、上ではうまく消えない場合
 ```
 
 
