@@ -3,7 +3,7 @@ layout: post
 title: jQuery.cookieでcookieを削除する際の注意
 ---
 
-```
+```js
    $.removeCookie(name);
    $.cookie(name, null);
    $.cookie(name, {expires: -1, path: '/'});←これはだめ
